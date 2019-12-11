@@ -1,0 +1,23 @@
+body {
+  background-image:url(/Users/lixupeng/lecture0/background.jpeg);
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 500px;
+  color: red;
+}
+
+#nav1 {
+  background-color: rgba(80,80,80,0.2);
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
