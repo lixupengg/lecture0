@@ -8,6 +8,10 @@ h1 {
   font-size: 500px;
   color: red;
 }
+
+h2 {
+  font-size: 60px;
+}
 /* ---------------------------------------- NAV BAR CSS ----------------------------------------*/
 #nav1 {
   background-color: rgba(80,80,80,0);
@@ -15,7 +19,7 @@ h1 {
 }
 
 .navbar-nav {
-  width:90%
+  width:100%
 }
 
 .nav-link, .navbar-brand {
@@ -32,3 +36,32 @@ h1 {
   padding-right: 30px;
 }
 /* ---------------------------------------- NAV BAR CSS ----------------------------------------*/
+
+
+#first-box {
+  padding-top: 80px;
+  min-height: 90vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Courier New', sans-serif;
+}
+#intro-box {
+  position: relative;
+  font-family: 'Courier New', sans-serif;
+  color: black;
+  padding-top: 80px;
+}
+
+#intro {
+  margin: 0 auto;
+  height: 500px;
+  background-color: rgba(233,233,233,0.8)
+}
+
+.text {
+  font-size: 25px;
+  font-family: 'Courier';
+  font-weight: Lighter;
+}
