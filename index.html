@@ -5,6 +5,7 @@
     <title> online portfolio :-) </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="css1.css">
+    <script src="myjs.js"></script>
   </head>
 
   <body>
@@ -13,7 +14,8 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbar-nav" >
+
+      <div class="collapse navbar-collapse col-11" id="navbar-nav" >
         <ul class="navbar-nav justify-content-center">
           <li class="nav-item">
             <a class="nav-link" href="#intro-box">a b o u t<span class="sr-only">(current)</span></a>
@@ -38,11 +40,12 @@
         <h2> } </h2>
       </div>
     </div>
-    <div class = "container-fluid align-items-center" id = "intro-box">
-      <div class = "jumbotron col-10" id = "intro">
+
+    <div class = "container-fluid align-middle" id = "about-box">
+      <div class = "jumbotron col-10" id = "about-jumbo">
         <div class = "row">
           <div class = "col-4 text-center align-middle">
-            <h2> about me </h2>
+            <h2> about me; </h2>
           </div>
           <div class = "col-8">
             <p class = "text"> -tba- -tba- -tba- -tba- -tba- -tba- -tba- -tba- -tba- -tba- -tba- -tba-
@@ -51,10 +54,58 @@
         -tba- -tba- -tba- -tba- -tba- -tba- -tba- -tba- -tba- -tba- -tba- -tba- -tba- -tba- -tba- -tba-
             </p>
           </div>
-      </div>
+        </div>
       </div>
     </div>
 
+    <div class = "container-fluid align-middle resume-box" id = "resume-box">
+      <div class = "row" id = "resume-word">
+        <div class = "col-12" >
+          r e s u m e;
+        </div>
+      </div>
+
+      <div class = "jumbotron col-10" id = "big-jumbo">
+        <div class = "container" id = "resume-head">
+            <div class = "row">
+              <div class ="col-3" id = "Heading1">
+                <button class="btn" data-toggle="collapse" data-target="#panalpina-jumbo" aria-expanded="true" aria-controls="panalpina-jumbo">
+                  panalpina
+                </button>
+              </div>
+
+              <div class = "col-9" id = "Heading2">
+                <button class="btn btn-primary" data-toggle="collapse" data-target="#pwc-jumbo" aria-expanded="false" aria-controls="pwc-jumbo">
+                  pwc
+                </button>
+              </div>
+            </div>
+        </div>
+
+        <div class = "jumbotron collapse show" id = "panalpina-jumbo" aria-labelledby="Heading1" data-parent="#resume-box">
+              Hello
+            </div>
+
+        <div class = "jumbotron collapse" id = "pwc-jumbo" aria-labelledby="Heading2" data-parent="#resume-box">
+              Bye
+            </div>
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    </div>
 
 
     <div>
@@ -71,6 +122,11 @@
       <h1> Hello! </h1>
       <h1> Hello! </h1>
     </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 
 
