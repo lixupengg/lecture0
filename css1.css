@@ -19,7 +19,7 @@ h2 {
 }
 
 .navbar-nav {
-  width:100%
+  width:95%
 }
 
 .nav-link, .navbar-brand {
@@ -35,8 +35,7 @@ h2 {
   padding-left: 30px;
   padding-right: 30px;
 }
-/* ---------------------------------------- NAV BAR CSS ----------------------------------------*/
-
+/* ---------------------------------------- NAV BAR CSS^^^^^ ----------------------------------------*/
 
 #first-box {
   padding-top: 80px;
@@ -47,21 +46,80 @@ h2 {
   text-align: center;
   font-family: 'Courier New', sans-serif;
 }
-#intro-box {
+#about-box {
   position: relative;
   font-family: 'Courier New', sans-serif;
   color: black;
   padding-top: 80px;
 }
 
-#intro {
+#about-jumbo {
   margin: 0 auto;
   height: 500px;
   background-color: rgba(233,233,233,0.8)
 }
 
+#resume-box {
+  color: white;
+  position: relative;
+  padding-top: 80px;
+}
+
+#resume-word {
+  text-align: center;
+  font-size: 70px;
+  background-color: rgba(233,233,233,0.8);
+  margin-bottom: 50px;
+}
+
+}
+#resume-head {
+  margin: 50px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+
+
+}
+
+#big-jumbo {
+  margin: 0 auto;
+  height: 650px;
+  background-color: rgba(233,233,233,0.8);
+
+
+}
+
+#panalpina-jumbo {
+
+  height: 500px;
+  background-color: rgba(153, 179, 255)
+
+
+}
+#pwc-jumbo {
+  margin: 0 auto;
+  height: 500px;
+  background-color: rgba(153, 179, 255)
+
+}
+
+
+.panalpina {
+  font-size: 40px;
+  color: rgb(0, 64, 255);
+}
+
+.pwc {
+  font-size: 40px;
+}
 .text {
   font-size: 25px;
   font-family: 'Courier';
   font-weight: Lighter;
+}
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
 }
