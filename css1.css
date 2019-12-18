@@ -5,12 +5,18 @@ body {
 }
 
 h1 {
-  font-size: 500px;
-  color: red;
+  font-size: 60px;
+  color: white;
 }
 
 h2 {
   font-size: 60px;
+  color: rgb(213,167,164);
+
+}
+
+li {
+  margin: 15px;
 }
 /* ---------------------------------------- NAV BAR CSS ----------------------------------------*/
 #nav1 {
@@ -23,7 +29,8 @@ h2 {
 }
 
 .nav-link, .navbar-brand {
-  color: white;
+  color: rgb(213,167,164);
+
 }
 
 .nav-link:hover {
@@ -55,8 +62,8 @@ h2 {
 
 #about-jumbo {
   margin: 0 auto;
-  height: 500px;
-  background-color: rgba(233,233,233,0.8)
+  min-height: 80vh;
+  background-color: rgba(153,77,72,0.8)
 }
 
 #resume-box {
@@ -68,56 +75,69 @@ h2 {
 #resume-word {
   text-align: center;
   font-size: 70px;
-  background-color: rgba(233,233,233,0.8);
+  background-color: rgba(233,233,233,0);
   margin-bottom: 50px;
 }
 
 }
 #resume-head {
-  margin: 50px;
   text-align: center;
   justify-content: center;
   display: flex;
-
-
 }
 
 #big-jumbo {
   margin: 0 auto;
-  height: 650px;
-  background-color: rgba(233,233,233,0.8);
-
+  min-height: 70vh;
+  background-color: rgba(204,103, 96, 0.8);
+  padding-top: 10px;
 
 }
 
 #panalpina-jumbo {
-
-  height: 500px;
-  background-color: rgba(153, 179, 255)
-
-
+  padding: 20px;
+  list-style: none;
 }
 #pwc-jumbo {
-  margin: 0 auto;
-  height: 500px;
-  background-color: rgba(153, 179, 255)
-
+  padding: 20px;
+  list-style: none;
 }
 
-
-.panalpina {
-  font-size: 40px;
-  color: rgb(0, 64, 255);
+.resume-text {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: Lighter;
+  list-style: none;
 }
 
-.pwc {
-  font-size: 40px;
+.resume-top {
+  color: rgb(77,39,36);
+  font-size: 30px;
+  font-family: courier;
 }
+
+.panalpina, .pwc {
+  font-size: 30px;
+  color: white;
+  font-family: "Courier";
+  background-color:rgba(0,0,0,0);
+}
+
+.panalpina:hover, .panalpina[aria-expanded="true"] {
+  background-color: rgb(51, 133, 255);
+}
+
+.pwc:hover, .pwc[aria-expanded="true"] {
+  background-color: rgb(255, 179, 128);
+}
+
 .text {
   font-size: 25px;
   font-family: 'Courier';
   font-weight: Lighter;
+  color: white;
 }
+
 .collapsing {
     -webkit-transition: none;
     transition: none;
